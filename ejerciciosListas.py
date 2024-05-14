@@ -1,23 +1,23 @@
-# crear una lista
+#1crear una lista
 lista= [1,2,3,4,5]
 print(lista)
-#imprimir un numero de la lista
+#2imprimir un numero de la lista
 print(lista[3])
-#modificar el numero 1
+#3modificar el numero 1
 lista[1]=10
 print(lista)
-#Agrgar un nuevo campo a la lista
+#4Agrgar un nuevo campo a la lista
 lista.append(6)
 print(lista)
-#eliminar un elemento por valor
+#5eliminar un elemento por valor
 buscar=10
 lista.remove(buscar)
 print(lista)
-#eliminar un elemento por indice
+#6eliminar un elemento por indice
 i=0
 del lista[0]
 print(lista)
-#longitud de la lista
+#7longitud de la lista
 print(len(lista))
 #extender la lista
 lista.extend([7,8,9])
@@ -32,4 +32,10 @@ print(lista)
 lista=[1,2,3,4,5]
 lista.reverse()
 print(lista)
+#Ordenar la lista
+listaDesordenada=[5,3,1,4,2]
+listaDesordenada.sort()
+print(listaDesordenada)
+
+
 
